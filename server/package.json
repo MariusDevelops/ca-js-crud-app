@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "crud app analysis",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch --port 5000 ./db.json"
+  },
+  "author": "Marius",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
